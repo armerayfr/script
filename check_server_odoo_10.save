@@ -1,0 +1,7 @@
+ping -c1 103.101.225.116
+	if [ $? -eq 0
+	then
+	echo OK
+	else
+	echo NOT OK
+	fi

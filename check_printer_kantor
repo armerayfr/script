@@ -1,0 +1,13 @@
+# don't show in screen
+# &> is greater than 
+
+# /dev/null is a directory
+# when you throw null value to that dir, it will disapear
+
+ping -c1 192.168.1.7 &> /dev/null
+        if [ $? -eq 0 ]
+        then
+        echo OK
+        else
+        echo NOT OK
+        fi

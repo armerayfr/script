@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Input Name
+
+a=`hostname`
+
+echo Hallo, my machine name is `hostname`
+echo
+echo Input yourname, please!
+echo
+read your_name
+echo
+echo Welcome to the club, $your_name
+echo
